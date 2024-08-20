@@ -1,0 +1,35 @@
+using System;
+public class employee
+{
+    public int id;
+    public string name;
+    public float salary;
+    public void insert(int i, string n, float s)
+    {
+        id = i;
+        name = n;
+        salary = s;
+    }
+    public void display()
+    {
+        Console.WriteLine(id + " " + name + " " + salary);
+    }
+}
+class test
+{
+    public static void Main(string[] args)
+    {
+        employee e1 = new employee();
+        int a;
+        string b;
+        float c;
+        Console.WriteLine("Enter the No.");
+        a = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter name");
+        b = Convert.ToString(Console.ReadLine());
+        Console.WriteLine("Enter the salary.");
+        c = Convert.ToInt32(Console.ReadLine());
+        e1.insert(a, b, c);
+        e1.display();
+    }
+}

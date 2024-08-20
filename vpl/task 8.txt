@@ -1,0 +1,48 @@
+STEP 1:
+Create a new project
+
+Select Windows Forms App(.NET FRAMEWORK)
+
+Form will be created
+
+STEP 2:
+Go to solution explorer right click on given project name
+ADD New Item
+
+STEP 3:
+Go to view Select Server Explorer
+Here you can see the database click on Database1 Symbol
+Right Click on Tables
+
+Click on Add new table
+
+Here dbo.Table window will be opened
+
+Here add the data give some column name. Click on tab for the next column. Add
+How many columns you need select last row click on update Symbol.
+STEP 3:
+Again, Go to Server explorer click on Database1 Symbol
+Right Click on Tables Symbol
+
+Right click on Table select show table data
+
+Here we need to add the data after that select last row click on Symbol to refresh.
+STEP 4: Go to view
+Select other windows in that select DataSource
+
+Go to form1.cs (Design)
+Go to Datasource
+Add new datasource
+Click on Next, Next, select all check
+
+boxes and finish.
+
+STEP 5: Go to data source click on database1.dataset1 Symbol. Click on table
+select grid view drag drop into the form.next select detail view drag and drop
+
+into the form.
+Go to File
+Save all.
+
+Click on Start.
+Output:
